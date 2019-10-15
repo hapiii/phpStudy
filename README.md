@@ -1,8 +1,10 @@
 # phpStudy
-php学习笔记
+
 
 MYSQL学习：
 SQL 语句
+
+```
 /Applications/XAMPP/xamppfiles/bin/mysql -u root 进入数据库
 SHOW databases;//显示数据库
 //查看表
@@ -109,3 +111,6 @@ SELECT name,author,title FROM customers JOIN classics ON customers.isbn = classi
 SELECT name,author,title from customers AS cust,classics AS class WHERE cust.isbn = class.isbn;
 //SQL中使用逻辑运算符
 SELECT author,title FROM classics WHERE author LIKE 'mark%' AND author LIKE "%towen";
+```
+
+[留言板](https://www.php.cn/course/875.html)
